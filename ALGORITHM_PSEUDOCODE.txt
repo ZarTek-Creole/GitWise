@@ -1,0 +1,24 @@
+Pseudocode for Branch Analysis Algorithm:
+
+1. Get a list of all branches in the repository.
+2. For each branch:
+   a. Determine the last commit date on the branch.
+   b. Determine if the branch has been merged into the 'main' or 'master' branch.
+   c. Classify the branch (feature, hotfix, release, etc.) based on its name.
+3. Identify branches that have not been merged for an extended period.
+4. Identify branches that can be fast-forwarded to the main branch without conflicts.
+5. Suggest actions to the user:
+   a. Delete old branches that have been merged and are no longer active.
+   b. Rebase or merge branches that are behind the main branch but can be fast-forwarded.
+   c. Provide warnings for branches that may require manual intervention to resolve conflicts.
+
+Pseudocode for Commit Message Pattern Detection Algorithm:
+
+1. Retrieve a list of recent commits from the repository.
+2. For each commit message:
+   a. Scan for keywords indicating feature addition, bug fixes, or documentation updates.
+   b. Analyze the structure of the message to ensure it follows conventional commit guidelines.
+   c. Look for references to issue tracker IDs or other metadata.
+3. Based on the findings, categorize each commit into a type (feature, fix, chore, docs, etc.).
+4. Suggest improvements to commit messages that do not meet best practices.
+5. Generate a report for the user summarizing the analysis and suggestions.

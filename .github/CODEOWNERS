@@ -1,0 +1,6 @@
+# This file is used to specify code owners for different parts of the repository.
+
+*       @default-owner
+
+# Specify code owners for specific sections
+# /path/to/code/ @username

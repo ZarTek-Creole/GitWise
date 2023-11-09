@@ -1,0 +1,25 @@
+Développement Futur de GitWise
+
+1. Conception d'Algorithme:
+   - Élaborer des algorithmes pour l'analyse des branches et la détection de patterns dans les messages de commit.
+
+2. Développement de Pseudocode:
+   - Créer du pseudocode pour les fonctions complexes.
+
+3. Documentation:
+   - Rédiger une documentation technique pour le projet.
+
+4. Scénarios de Test et Simulations:
+   - Écrire des scripts de test pour simuler l'interaction utilisateur.
+
+5. Structuration du Code:
+   - Réorganiser le code source selon les principes de la programmation orientée objet.
+
+6. Amélioration de la Simplicité d'Utilisation:
+   - Simplifier l'interface utilisateur de la CLI.
+
+7. Planification de Fonctionnalités Futures:
+   - Planifier l'intégration avec des services de CI/CD et des plateformes comme GitHub ou GitLab.
+
+8. Internationalisation:
+   - Préparer le code pour la prise en charge de multiples langues.

@@ -1,0 +1,6 @@
+# Replace the following lines with the required packages as the project development progresses
+# requests
+# pytest
+flake8
+
+pytest
